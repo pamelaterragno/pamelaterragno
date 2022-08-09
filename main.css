@@ -78,6 +78,11 @@ p {
   padding-left: 15px;
 }
 
+.proyects {
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
 div .showProyects {
   display: inline-flex;
 }

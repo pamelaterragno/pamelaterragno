@@ -60,10 +60,15 @@ body{
     margin-bottom: 0px;
 }
 
-img {
+.showProyects {
+  size: 100px;
+  display: inline-flex;
+}
+
+/*img {
   height: 500px;
   align-self: center;
-}
+}*/
 
 /*HOME PAGE*/
  

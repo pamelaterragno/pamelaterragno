@@ -11,6 +11,7 @@
 
 body{
     background-color: rgb(242, 242, 242);
+    padding-left: 10px;
 }
 
 /*HEADER*/
@@ -44,13 +45,6 @@ body{
 
   /*HOME PAGE*/
 
-  h3 {
-    font-style: italic;
-    font-size: 30px;
-    color: rgb(51, 51, 51);
-    margin-top: 0px;
-  }
-
   h1 {
     font-size: 150px;
     margin-top: 50px;
@@ -60,12 +54,60 @@ body{
     margin-bottom: 0px;
 }
 
-.showProyects {
-  size: 100px;
+h2 {
+  font-size: 40px;
+  background-color: rgb(195, 179, 216);
+  padding-left: 15px;
+}
+
+  h3 {
+    font-style: italic;
+    font-size: 30px;
+    color: rgb(51, 51, 51);
+    margin-top: 0px;
+    margin-bottom: 150px;
+  }
+
+h4 {
+  font-size: 25px;
+  padding-left: 15px;
+  }
+
+p {
+  font-size: 20px;
+  padding-left: 15px;
+}
+
+div .showProyects {
   display: inline-flex;
 }
 
-/*img {
+img { /*This should be img .class, check later*/
+  width: 500px; 
+  cursor: pointer;
+  margin: 10px;
+  transition: .5s ease;
+}
+
+img:hover{
+  opacity: 0.3;
+}
+
+.showname {
+position: absolute;
+margin-top: 450px;
+margin-left: 20px;
+background-color: rgb(51, 51, 51);
+color: rgb(242, 242, 242);
+transition: .5s ease;
+opacity: 0;
+padding: 3px;
+}
+
+.showProyects:hover .showname {
+  opacity: 1;
+}
+/*img { FUTURE PRESENTATION IMG
   height: 500px;
   align-self: center;
 }*/
